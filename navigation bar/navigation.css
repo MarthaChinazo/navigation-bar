@@ -1,0 +1,35 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-shadow: 0px 3px 3px;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScopOjNt-K-QF0NsK2MdSX6xWc8ptrsjgOVw&usqp=CAU);
+    background-size: cover;
+}
+.container{
+    background-color: rgb(96, 62, 128);
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    display: flex;
+    gap: 2rem;
+}
+.nav-link a{
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 1rem 1rem;
+    border: 2px solid transparent;
+}
+.nav-link a:hover{
+    background-color: #fff;
+    color: rgb(41, 16, 64);
+}
